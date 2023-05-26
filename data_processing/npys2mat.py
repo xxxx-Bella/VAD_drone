@@ -6,21 +6,12 @@ from scipy import io
 note: 1 不可以重复执行
 '''
 
-# npy_path = 'D:\\Desktop\\postG\\VAD\\dataset\\Campus\\playground\\frames\\abnormal'
-npy_path = 'D:\\Desktop\\postG\\VAD\\dataset\\Campus\\playground_drone\\frames\\abnormal'
-# npy_path = 'D:\\Desktop\\postG\\VAD\\dataset\\ShanghaiTech_Campus\\Testing\\test_frame_mask'  
-# npy_path = '/home/featurize/work/pred_CVPR2018/Data/Data/Bike_Roundabout/sequence1'
+npy_path = '../dataset/Campus/playground_drone/frames/abnormal'
 
 # 定义文件夹路径，合并后的npy文件保存路径
-# merged_path = 'D:\\Desktop\\postG\\VAD\\dataset\\Campus\\playground\\frames\\abnormal\\playground.npy'
-merged_path = 'D:\\Desktop\\postG\\VAD\\dataset\\Campus\\playground_drone\\frames\\abnormal\\playground_drone.npy'
-# merged_path = '/home/featurize/work/pred_CVPR2018/Data/Data/Bike_Roundabout/sequence1/all.npy'
+merged_path = '../dataset/Campus/playground_drone/frames/abnormal/playground_drone.npy'
 
-# mat_path = 'D:\\Desktop\\postG\\VAD\\dataset\\Campus\\playground\\frames\\abnormal\\playground.mat'
-mat_path = 'D:\\Desktop\\postG\\VAD\\dataset\\Campus\\playground_drone\\frames\\abnormal\\playground_drone.mat'
-# mat_path = '/home/featurize/work/pred_CVPR2018/Data/Data/ped2/ped2.mat'
-# mat_path = '/home/featurize/work/pred_CVPR2018/Data/Data/avenue/avenue.mat'
-# mat_path = '/home/featurize/work/pred_CVPR2018/Data/Data/Bike_Roundabout/sequence1/Bike_Roundabout.mat'
+mat_path = '../dataset/Campus/playground_drone/frames/abnormal/playground_drone.mat'
 
 # np.set_printoptions(threshold=np.inf)
 
