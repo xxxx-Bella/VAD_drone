@@ -3,11 +3,8 @@ import cv2
 
 
 # 设置视频文件路径和帧保存目录
-video_dir = 'D:\\Desktop\\postG\\VAD\\dataset\\Campus\\playground\\videos\\'  # playground_drone
-frame_dir = 'D:\\Desktop\\postG\\VAD\\dataset\\Campus\\playground\\frames\\'
-
-# video_dir = '../Campus/playground/videos/abnormal/'
-# frame_dir = '../Campus/playground/frames/abnormal/'
+video_dir = '../Campus/playground/videos/abnormal/'
+frame_dir = '../Campus/playground/frames/abnormal/'
 
 # 遍历视频文件
 for filename in os.listdir(video_dir):
